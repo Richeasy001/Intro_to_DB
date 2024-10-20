@@ -3,8 +3,8 @@ from mysql.connector import errorcode
 
 # Database configuration
 config = {
-    'user': 'your_username',
-    'password': 'your_password',
+    'user': 'root',
+    'password': 'IlamosiEmolewu100%',
     'host': 'localhost',
 }
 
@@ -15,7 +15,7 @@ try:
 
     # Create database if it does not exist
     database_name = 'alx_book_store'
-    cursor.execute(f"CREATE DATABASE IF NOT EXISTS {database_name};")
+    cursor.execute(f"CREATE DATABASE IF NOT EXISTS alx_book_store;")
 
     print(f"Database '{database_name}' created successfully!")
 
